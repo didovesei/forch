@@ -1,6 +1,7 @@
 """Orchestrator component for controlling a Faucet SDN"""
 
 from datetime import datetime
+import functools
 import logging
 import os
 import threading
@@ -87,6 +88,7 @@ class Forchestrator:
         self._faucetize_scheduler = None
         self._config_file_watcher = None
         self._faucet_state_scheduler = None
+        self._gauge_metrics_scheduler = None
 
         self._initialized = False
         self._active_state = State.initializing
@@ -108,6 +110,16 @@ class Forchestrator:
         self._faucet_collector.set_forch_metrics(self._metrics)
         self._faucet_state_scheduler = HeartbeatScheduler(interval_sec=1)
         self._faucet_state_scheduler.add_callback(self._faucet_collector.heartbeat_update)
+
+        gauge_metrics_interval_sec = 10
+        get_gauge_metrics = functools.partial(
+            varz_state_collector.retry_get_metrics, endpoint=self._gauge_prom_endpoint)
+        heartbeat_update_packet_count = functools.partial(
+            self._faucet_collector.heartbeat_update_packet_count,
+            interval=gauge_metrics_interval_sec, get_metrics=get_gauge_metrics)
+        self._gauge_metrics_scheduler = HeartbeatScheduler(interval_sec=gauge_metrics_interval_sec)
+        self._gauge_metrics_scheduler.add_callback(heartbeat_update_packet_count)
+
 
         self._local_collector = LocalStateCollector(
             self._config.process, self.cleanup, self.handle_active_state, metrics=self._metrics)
