@@ -18,6 +18,7 @@ from forch.proto.devices_state_pb2 import DevicePlacement, DeviceBehavior
 from forch.proto.forch_configuration_pb2 import ForchConfig
 from forch.proto.shared_constants_pb2 import DVAState
 
+_LOG_LEVEL_DEFAULT = 'INFO'
 LOGGER = logging.getLogger('faucetizer')
 
 ACL_FILE_SUFFIX = '_augmented'
@@ -294,7 +295,9 @@ def parse_args(raw_args):
 
 
 if __name__ == '__main__':
-    configure_logging()
+    log_level_str = os.getenv('LOG_LEVEL', _LOG_LEVEL_DEFAULT)
+    configure_logging(log_level_str)
+
     FORCH_BASE_DIR = os.getenv('FORCH_CONFIG_DIR')
     FAUCET_BASE_DIR = os.getenv('FAUCET_CONFIG_DIR')
     ARGS = parse_args(sys.argv[1:])
