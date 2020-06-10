@@ -241,7 +241,7 @@ def load_devices_state(file):
     return devices_state
 
 
-def process_devices_state(faucetizer: Faucetizer, devices_state: DevicesState, average_interval: float):
+def process_devices_state(faucetizer: Faucetizer, devices_state: DevicesState, average_interval=0):
     """Process devices state"""
     for mac, device_placement in devices_state.device_mac_placements.items():
         if average_interval:
@@ -284,6 +284,8 @@ def parse_args(raw_args):
                         help='unauthenticated_vlan')
     parser.add_argument('-o', '--output', type=str, default='faucet.yaml',
                         help='behavioral faucet config output')
+    parser.add_argument('-i', '--avg-interval', type=float, default='0',
+                        help='average interval when processing device placements and behaviors')
     return parser.parse_args(raw_args)
 
 
@@ -309,6 +311,6 @@ if __name__ == '__main__':
 
     DEVICES_STATE_FILE = os.path.join(FORCH_BASE_DIR, ARGS.state_input)
     DEVICES_STATE = load_devices_state(DEVICES_STATE_FILE)
-    process_devices_state(FAUCETIZER, DEVICES_STATE)
+    process_devices_state(FAUCETIZER, DEVICES_STATE, ARGS.avg_interval)
 
     LOGGER.info('Processed device state and config wrote to %s', BEHAVIORAL_CONFIG_FILE)
