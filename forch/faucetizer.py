@@ -245,11 +245,15 @@ def process_devices_state(faucetizer: Faucetizer, devices_state: DevicesState, a
     """Process devices state"""
     for mac, device_placement in devices_state.device_mac_placements.items():
         if average_interval:
-            time.sleep(random.expovariate(average_interval))
+            interval = random.expovariate(average_interval)
+            LOGGER.debug('Waiting for %.2f seconds', interval)
+            time.sleep(interval)
         faucetizer.process_device_placement(mac, device_placement)
     for mac, device_behavor in devices_state.device_mac_behaviors.items():
         if average_interval:
-            time.sleep(random.expovariate(average_interval))
+            interval = random.expovariate(average_interval)
+            LOGGER.debug('Waiting for %.2f seconds', interval)
+            time.sleep(interval)
         faucetizer.process_device_behavior(mac, device_behavor)
 
 
