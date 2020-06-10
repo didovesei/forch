@@ -1,0 +1,37 @@
+acls:
+  role_blue:
+  - rule:
+      actions:
+        allow: true
+      cookie: 8
+      description: allow all
+  role_green:
+  - rule:
+      actions:
+        allow: true
+      cookie: 7
+      description: allow ICMP
+      dl_type: 2048
+      ip_proto: 1
+  role_red:
+  - rule:
+      actions:
+        allow: true
+      cookie: 6
+      description: allow ICMP
+      dl_type: 2048
+      ip_proto: 1
+  role_yellow:
+  - rule:
+      actions:
+        allow: false
+      cookie: 9
+      description: deny ICMP
+      dl_type: 2048
+      ip_proto: 1
+  tail_acl:
+  - rule:
+      actions:
+        allow: true
+      cookie: 10
+      description: allow all

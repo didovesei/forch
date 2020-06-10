@@ -1,0 +1,301 @@
+device_mac_behaviors:
+  02:00:00:00:00:01:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:02:
+    role: red
+    segment: BOS
+  02:00:00:00:00:03:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:04:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:05:
+    role: green
+    segment: BOS
+  02:00:00:00:00:06:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:07:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:08:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:09:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:0a:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:0b:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:0c:
+    role: red
+    segment: BOS
+  02:00:00:00:00:0d:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:0e:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:0f:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:10:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:11:
+    role: green
+    segment: BOS
+  02:00:00:00:00:12:
+    role: red
+    segment: BOS
+  02:00:00:00:00:13:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:14:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:15:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:16:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:17:
+    role: green
+    segment: BOS
+  02:00:00:00:00:18:
+    role: red
+    segment: BOS
+  02:00:00:00:00:19:
+    role: red
+    segment: BOS
+  02:00:00:00:00:1a:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:1b:
+    role: green
+    segment: BOS
+  02:00:00:00:00:1c:
+    role: green
+    segment: BOS
+  02:00:00:00:00:1d:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:1e:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:1f:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:20:
+    role: green
+    segment: BOS
+  02:00:00:00:00:21:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:22:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:23:
+    role: green
+    segment: BOS
+  02:00:00:00:00:24:
+    role: green
+    segment: BOS
+  02:00:00:00:00:25:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:26:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:27:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:28:
+    role: red
+    segment: BOS
+  02:00:00:00:00:29:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:2a:
+    role: green
+    segment: BOS
+  02:00:00:00:00:2b:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:2c:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:2d:
+    role: red
+    segment: BOS
+  02:00:00:00:00:2e:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:2f:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:30:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:31:
+    role: red
+    segment: BOS
+  02:00:00:00:00:32:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:33:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:34:
+    role: red
+    segment: BOS
+  02:00:00:00:00:35:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:36:
+    role: red
+    segment: BOS
+  02:00:00:00:00:37:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:38:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:39:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:3a:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:3b:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:3c:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:3d:
+    role: green
+    segment: BOS
+  02:00:00:00:00:3e:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:3f:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:40:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:41:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:42:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:43:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:44:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:45:
+    role: green
+    segment: BOS
+  02:00:00:00:00:46:
+    role: red
+    segment: BOS
+  02:00:00:00:00:47:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:48:
+    role: red
+    segment: BOS
+  02:00:00:00:00:49:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:4a:
+    role: green
+    segment: BOS
+  02:00:00:00:00:4b:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:4c:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:4d:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:4e:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:4f:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:50:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:51:
+    role: green
+    segment: BOS
+  02:00:00:00:00:52:
+    role: red
+    segment: BOS
+  02:00:00:00:00:53:
+    role: green
+    segment: BOS
+  02:00:00:00:00:54:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:55:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:56:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:57:
+    role: red
+    segment: BOS
+  02:00:00:00:00:58:
+    role: blue
+    segment: BOS
+  02:00:00:00:00:59:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:5a:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:5b:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:5c:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:5d:
+    role: red
+    segment: BOS
+  02:00:00:00:00:5e:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:5f:
+    role: red
+    segment: BOS
+  02:00:00:00:00:60:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:61:
+    role: green
+    segment: INFRA
+  02:00:00:00:00:62:
+    role: blue
+    segment: INFRA
+  02:00:00:00:00:63:
+    role: red
+    segment: INFRA
+  02:00:00:00:00:64:
+    role: green
+    segment: INFRA

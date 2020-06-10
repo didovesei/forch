@@ -1,0 +1,27 @@
+#!/bin/bash -e
+
+source bin/stack_functions
+
+preamble_setup
+
+export FORCH_CONFIG_DIR=inst/forch-faucet-1
+export FAUCET_CONFIG_DIR=inst/forch-faucet-1
+
+if [ -z "$VIRTUAL_ENV" -a -f venv/bin/python3 ]; then
+    PYTHON=venv/bin/python3
+else
+    PYTHON=python3
+fi
+
+$PYTHON testing/scale/generate_placements.py
+$PYTHON testing/scale/generate_behaviors.py
+cat $FORCH_CONFIG_DIR/placements.yaml $FORCH_CONFIG_DIR/behaviors.yaml > $FORCH_CONFIG_DIR/device_states.yaml
+
+# bin/setup_stack
+
+fc_file=faucet_structural.yaml
+state_file=device_states.yaml
+output_file=faucet.yaml
+
+#$PYTHON -m forch.faucetizer
+$PYTHON -m forch.faucetizer -s $state_file -c $fc_file -o $output_file

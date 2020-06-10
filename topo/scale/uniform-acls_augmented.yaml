@@ -1,0 +1,34 @@
+acls:
+  uniform_100:
+  - rule:
+      actions:
+        allow: true
+      cookie: 1
+      description: allow DHCP
+      dl_type: 2048
+      ip_proto: 17
+      ipv4_dst: 192.168.1.254
+      udp_dst: 67
+  - rule:
+      actions:
+        allow: false
+      cookie: 2
+      description: deny all
+  uniform_200:
+  - rule:
+      actions:
+        allow: true
+      cookie: 3
+      description: allow all
+  uniform_300:
+  - rule:
+      actions:
+        allow: true
+      cookie: 4
+      description: allow all
+  uniform_400:
+  - rule:
+      actions:
+        allow: false
+      cookie: 5
+      description: allow all

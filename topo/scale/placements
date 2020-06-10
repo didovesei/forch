@@ -1,0 +1,401 @@
+device_mac_placements:
+  02:00:00:00:00:01:
+    connected: true
+    port: 1
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:02:
+    connected: true
+    port: 2
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:03:
+    connected: true
+    port: 3
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:04:
+    connected: true
+    port: 4
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:05:
+    connected: true
+    port: 5
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:06:
+    connected: true
+    port: 6
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:07:
+    connected: true
+    port: 7
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:08:
+    connected: true
+    port: 8
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:09:
+    connected: true
+    port: 9
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0a:
+    connected: true
+    port: 10
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0b:
+    connected: true
+    port: 11
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0c:
+    connected: true
+    port: 12
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0d:
+    connected: true
+    port: 13
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0e:
+    connected: true
+    port: 14
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:0f:
+    connected: true
+    port: 15
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:10:
+    connected: true
+    port: 16
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:11:
+    connected: true
+    port: 17
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:12:
+    connected: true
+    port: 18
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:13:
+    connected: true
+    port: 19
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:14:
+    connected: true
+    port: 20
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:15:
+    connected: true
+    port: 21
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:16:
+    connected: true
+    port: 22
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:17:
+    connected: true
+    port: 23
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:18:
+    connected: true
+    port: 24
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:19:
+    connected: true
+    port: 25
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1a:
+    connected: true
+    port: 26
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1b:
+    connected: true
+    port: 27
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1c:
+    connected: true
+    port: 28
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1d:
+    connected: true
+    port: 29
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1e:
+    connected: true
+    port: 30
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:1f:
+    connected: true
+    port: 31
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:20:
+    connected: true
+    port: 32
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:21:
+    connected: true
+    port: 33
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:22:
+    connected: true
+    port: 34
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:23:
+    connected: true
+    port: 35
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:24:
+    connected: true
+    port: 36
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:25:
+    connected: true
+    port: 37
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:26:
+    connected: true
+    port: 38
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:27:
+    connected: true
+    port: 39
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:28:
+    connected: true
+    port: 40
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:29:
+    connected: true
+    port: 41
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2a:
+    connected: true
+    port: 42
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2b:
+    connected: true
+    port: 43
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2c:
+    connected: true
+    port: 44
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2d:
+    connected: true
+    port: 45
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2e:
+    connected: true
+    port: 46
+    switch: nz-kiwi-t2sw1
+  02:00:00:00:00:2f:
+    connected: true
+    port: 1
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:30:
+    connected: true
+    port: 2
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:31:
+    connected: true
+    port: 3
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:32:
+    connected: true
+    port: 4
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:33:
+    connected: true
+    port: 5
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:34:
+    connected: true
+    port: 6
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:35:
+    connected: true
+    port: 7
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:36:
+    connected: true
+    port: 8
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:37:
+    connected: true
+    port: 9
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:38:
+    connected: true
+    port: 10
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:39:
+    connected: true
+    port: 11
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3a:
+    connected: true
+    port: 12
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3b:
+    connected: true
+    port: 13
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3c:
+    connected: true
+    port: 14
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3d:
+    connected: true
+    port: 15
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3e:
+    connected: true
+    port: 16
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:3f:
+    connected: true
+    port: 17
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:40:
+    connected: true
+    port: 18
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:41:
+    connected: true
+    port: 19
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:42:
+    connected: true
+    port: 20
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:43:
+    connected: true
+    port: 21
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:44:
+    connected: true
+    port: 22
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:45:
+    connected: true
+    port: 23
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:46:
+    connected: true
+    port: 24
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:47:
+    connected: true
+    port: 25
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:48:
+    connected: true
+    port: 26
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:49:
+    connected: true
+    port: 27
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4a:
+    connected: true
+    port: 28
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4b:
+    connected: true
+    port: 29
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4c:
+    connected: true
+    port: 30
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4d:
+    connected: true
+    port: 31
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4e:
+    connected: true
+    port: 32
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:4f:
+    connected: true
+    port: 33
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:50:
+    connected: true
+    port: 34
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:51:
+    connected: true
+    port: 35
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:52:
+    connected: true
+    port: 36
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:53:
+    connected: true
+    port: 37
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:54:
+    connected: true
+    port: 38
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:55:
+    connected: true
+    port: 39
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:56:
+    connected: true
+    port: 40
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:57:
+    connected: true
+    port: 41
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:58:
+    connected: true
+    port: 42
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:59:
+    connected: true
+    port: 43
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:5a:
+    connected: true
+    port: 44
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:5b:
+    connected: true
+    port: 45
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:5c:
+    connected: true
+    port: 46
+    switch: nz-kiwi-t2sw2
+  02:00:00:00:00:5d:
+    connected: true
+    port: 1
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:5e:
+    connected: true
+    port: 2
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:5f:
+    connected: true
+    port: 3
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:60:
+    connected: true
+    port: 4
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:61:
+    connected: true
+    port: 5
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:62:
+    connected: true
+    port: 6
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:63:
+    connected: true
+    port: 7
+    switch: nz-kiwi-t2sw3
+  02:00:00:00:00:64:
+    connected: true
+    port: 8
+    switch: nz-kiwi-t2sw3
