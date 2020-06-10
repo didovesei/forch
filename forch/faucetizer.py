@@ -4,7 +4,9 @@ import argparse
 import copy
 import logging
 import os
+import random
 import sys
+import time
 import threading
 import yaml
 
@@ -239,11 +241,15 @@ def load_devices_state(file):
     return devices_state
 
 
-def process_devices_state(faucetizer: Faucetizer, devices_state: DevicesState):
+def process_devices_state(faucetizer: Faucetizer, devices_state: DevicesState, average_interval: float):
     """Process devices state"""
     for mac, device_placement in devices_state.device_mac_placements.items():
+        if average_interval:
+            time.sleep(random.expovariate(average_interval))
         faucetizer.process_device_placement(mac, device_placement)
     for mac, device_behavor in devices_state.device_mac_behaviors.items():
+        if average_interval:
+            time.sleep(random.expovariate(average_interval))
         faucetizer.process_device_behavior(mac, device_behavor)
 
 
